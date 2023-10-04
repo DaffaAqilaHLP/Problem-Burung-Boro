@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SMADA-1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-04 08:31:14 AM"/>
+        <attribute name="created" value="U01BREEtMTtDTElFTlQtMjc7MjAyMy0xMC0wNDswNzozMTozMyBBTTsyMzA3"/>
+        <attribute name="edited" value="U01BREEtMTtDTElFTlQtMjc7MjAyMy0xMC0wNDswODozMToxNCBBTTsxOzI0MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="Real" array="False" size=""/>
+            <declare name="v" type="Real" array="False" size=""/>
+            <declare name="w" type="Real" array="False" size=""/>
+            <declare name="sinA" type="Real" array="False" size=""/>
+            <output expression="&quot;Sudut peluncuran ?&quot;" newline="True"/>
+            <input variable="S"/>
+            <output expression="&quot;Kecepatan awal?&quot;" newline="True"/>
+            <input variable="V"/>
+            <assign variable="sinA" expression="sin(s*22/7/180)"/>
+            <assign variable="w" expression="(2*(v*sinA))/10"/>
+            <output expression="w" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
