@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="SMADA-1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-05 07:16:58 PM"/>
+        <attribute name="created" value="U01BREEtMTtDTElFTlQtMzE7MjAyNS0wMS0wNTswNjoxODo1MyBQTTsyMzI2"/>
+        <attribute name="edited" value="U01BREEtMTtDTElFTlQtMzE7MjAyNS0wMS0wNTswNzoxNjo1OCBQTTsxOzI0Mzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Sudut" type="Real" array="False" size=""/>
+            <declare name="Kecepatan" type="Real" array="False" size=""/>
+            <declare name="Jarak" type="Real" array="False" size=""/>
+            <input variable="Sudut"/>
+            <input variable="Kecepatan"/>
+            <assign variable="Jarak" expression="sin(2 * Sudut * 3.141 / 180)*10"/>
+            <output expression="Jarak" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
